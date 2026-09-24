@@ -13,7 +13,7 @@ class Holler < Formula
   on_macos do
     on_arm do
       url "https://github.com/Performant-Labs/holler/releases/download/v0.3.0/holler-macos-latest"
-      sha256 "027c9bb9c85c6ccfe6e2f6f750b195b1f126b6e81b47e60ae2d9280fd72aec2c"
+      sha256 "dd60a1a22d8d5c40d27e26e7ead2a8275008690fc4ebf4340e473b62907c0edb"
     end
   end
 
@@ -24,7 +24,7 @@ class Holler < Formula
     end
     on_intel do
       url "https://github.com/Performant-Labs/holler/releases/download/v0.3.0/holler-ubuntu-latest"
-      sha256 "039b14551c9f49efdb68f9fa46a0ef8129b0e1dd12cce26ad956655c8e3f2638"
+      sha256 "627c20332de938abf5634000d4949c68c7d28385472c5f07a76cef19c80ddc3b"
     end
   end
 
