@@ -12,19 +12,19 @@ class Holler < Formula
   # level deeper, inside on_arm/on_intel/on_system.
   on_macos do
     on_arm do
-      url "https://github.com/Performant-Labs/holler/releases/download/v0.4.0/holler-macos-latest"
-      sha256 "69d0542c43fe0c5bb8596e284bd7f4a62104ba9e5b7da1c1d8df62cd270ef469"
+      url "https://github.com/Performant-Labs/holler/releases/download/v0.5.0/holler-macos-latest"
+      sha256 "641415ae2c17b642c1b212e8f728adab5d2dd57d0ec041e7f32ab3ccd081e3c8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Performant-Labs/holler/releases/download/v0.4.0/holler-ubuntu-arm64"
-      sha256 "ccc8882656d23fc1188e8bb879daa144b46f80c4e9eb68de72c7080b3e33c337"
+      url "https://github.com/Performant-Labs/holler/releases/download/v0.5.0/holler-ubuntu-arm64"
+      sha256 "035199c95449551577cbe17550462ac45356f7f2912d34ccf9fe27aba7c5c59c"
     end
     on_intel do
-      url "https://github.com/Performant-Labs/holler/releases/download/v0.4.0/holler-ubuntu-latest"
-      sha256 "ea72f1fdc0ef6aaaf979b52acf8c7ea3969fb7a0398c6ea1eb9cb7e1337e28a8"
+      url "https://github.com/Performant-Labs/holler/releases/download/v0.5.0/holler-ubuntu-latest"
+      sha256 "0d82d914f6076a3e08b1393d24636581a874360bb180c1af1cb5156bd443fa43"
     end
   end
 
